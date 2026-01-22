@@ -2,11 +2,16 @@
 GitHub template repository for Dart packages, ready for pub.dev publication.
 
 <!-- Badges -->
-[![pub package](https://img.shields.io/pub/v/dart_package_template.svg)](https://pub.dev/packages/dart_package_template)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](LICENSE)
 [![build](https://github.com/kerberjg/dart_package_template/actions/workflows/package.yaml/badge.svg)](https://github.com/kerberjg/dart_package_template/actions/workflows/package.yaml)
 [![example](https://github.com/kerberjg/dart_package_template/actions/workflows/example.yaml/badge.svg)](https://github.com/kerberjg/dart_package_template/actions/workflows/example.yaml)
 [![stars](https://img.shields.io/github/stars/kerberjg/dart_package_template.svg)](https://github.com/kerberjg/dart_package_template/stargazers)
+
+<!-- Pub.dev Badges -->
+[![pub package](https://img.shields.io/pub/v/dart_package_template.svg)](https://pub.dev/packages/dart_package_template)
+[![pub score](https://img.shields.io/pub/points/dart_package_template?logo=dart)](https://pub.dev/packages/dart_package_template/score)
+[![likes](https://img.shields.io/pub/likes/dart_package_template.svg)](https://pub.dev/packages/dart_package_template/likes)
+[![popularity](https://img.shields.io/pub/popularity/dart_package_template.svg)](https://pub.dev/packages/dart_package_template/popularity)
 
 ## ✨ Features
 - Ready for immediate package publication to [pub.dev](https://pub.dev/).
