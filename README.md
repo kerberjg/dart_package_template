@@ -3,6 +3,10 @@
 # dart_package_template
 GitHub template repository for Dart packages, ready for pub.dev publication.
 
+```bash
+dart pub get dart_package_template
+```
+
 <!-- Badges -->
 <!-- remember to update these badges when using the template! -->
 
@@ -16,6 +20,12 @@ GitHub template repository for Dart packages, ready for pub.dev publication.
 [![likes](https://img.shields.io/pub/likes/dart_package_template?logo=dart)](https://pub.dev/packages/dart_package_template/likes)
 
 </div>
+
+### 💙 Use cases
+- 🏝️ **A weekend project**: quickly start a new OSS Dart project with everything set up
+- 📚 **Learning**: understand best practices for Dart package structure, linting, testing, and CI
+- 💻 **Production-ready boilerplate**: complete starting point for a high-quality Dart package
+
 
 ## ✨ Features
 - Unopinionated! A minimal example focused on compliance with Dart guidelines
@@ -32,7 +42,6 @@ This repository is also published as a package on [pub.dev](https://pub.dev/pack
 #### Coming up next:
 - GitHub **Issue/PR templates**
 - **CLI utility** for maintenance/updates (separate repo/package)
-
 
 ---
 
@@ -141,8 +150,6 @@ This package is developed/maintained by the following rockstars!
 Your contributions make a difference! 💖
 
 ![contributors badge](https://readme-contribs.as93.net/contributors/kerberjg/dart_package_template?textColor=888888)
-
-<br/>
 
 ### Sponsors 🫶✨🥳
 
