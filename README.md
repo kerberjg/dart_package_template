@@ -156,3 +156,9 @@ Your contributions make a difference! 💖
 Kind thanks to all our sponsors! Thank you for supporting the Dart/Flutter community, and keeping open source alive! 💙
 
 ![sponsors badge](https://readme-contribs.as93.net/sponsors/kerberjg?textColor=888888)
+
+---
+
+<!-- Keep the below notice -->
+
+> Based on [`dart_package_template`](https://github.com/kerberjg/dart_package_template) - a high-quality Dart package template with best practices, CI/CD, and more! 💙✨
