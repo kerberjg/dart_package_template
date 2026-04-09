@@ -36,11 +36,11 @@ dart pub get dart_package_template
 - (Recommended) [MPL-2.0 License](https://opensource.org/licenses/MPL-2.0) for open source projects
 - Unit tests setup with `test` package
 - GitHub Actions workflows for automated testing/QA jobs on push events and PRs
+- GitHub issues/PR templates
 
 This repository is also published as a package on [pub.dev](https://pub.dev/packages/dart_package_template) to make sure it's always kept up to date on the most recent best practices 🫶
 
 #### Coming up next:
-- GitHub **Issue/PR templates**
 - **CLI utility** for maintenance/updates (separate repo/package)
 
 ---
