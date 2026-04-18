@@ -1,5 +1,6 @@
 name: package_example
-description: A template Dart package example project, to be used in the `example/` directory.
+description: A template Dart package example project, to be used in the
+  `example/` directory.
 version: 0.0.1
 
 publish_to: none
@@ -7,7 +8,7 @@ publish_to: none
 license: MPL-2.0
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 # Add regular dependencies here.
 dependencies:
