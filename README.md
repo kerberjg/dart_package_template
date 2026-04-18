@@ -1,15 +1,39 @@
 <div align="center">
 
+<!-- template:in
+# ${package_name}
+${package_description}
+ /template:in -->
+<!-- template:out -->
 # dart_package_template
 GitHub template repository for Dart packages, ready for pub.dev publication.
+<!-- /template:out -->
 
+
+<!-- template:in
+```bash
+dart pub get ${package_name}
+```
+ /template:in -->
+<!-- template:out -->
 ```bash
 dart pub get dart_package_template
 ```
+<!-- /template:out -->
 
 <!-- Badges -->
-<!-- remember to update these badges when using the template! -->
 
+<!-- template:in
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](LICENSE)
+[![build](https://github.com/${github_username}/${repo_name}/actions/workflows/package.yaml/badge.svg)](https://github.com/${github_username}/${repo_name}/actions/workflows/package.yaml)
+[![example](https://github.com/${github_username}/${repo_name}/actions/workflows/example.yaml/badge.svg)](https://github.com/${github_username}/${repo_name}/actions/workflows/example.yaml)
+[![stars](https://img.shields.io/github/stars/${github_username}/${repo_name}.svg)](https://github.com/${github_username}/${repo_name}/stargazers)
+<br/>
+[![pub package](https://img.shields.io/pub/v/${package_name}?logo=dart)](https://pub.dev/packages/${package_name})
+[![pub score](https://img.shields.io/pub/points/${package_name}?logo=dart)](https://pub.dev/packages/${package_name}/score)
+[![likes](https://img.shields.io/pub/likes/${package_name}?logo=dart)](https://pub.dev/packages/${package_name}/likes)
+ /template:in -->
+<!-- template:out -->
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](LICENSE)
 [![build](https://github.com/kerberjg/dart_package_template/actions/workflows/package.yaml/badge.svg)](https://github.com/kerberjg/dart_package_template/actions/workflows/package.yaml)
 [![example](https://github.com/kerberjg/dart_package_template/actions/workflows/example.yaml/badge.svg)](https://github.com/kerberjg/dart_package_template/actions/workflows/example.yaml)
@@ -18,6 +42,7 @@ dart pub get dart_package_template
 [![pub package](https://img.shields.io/pub/v/dart_package_template?logo=dart)](https://pub.dev/packages/dart_package_template)
 [![pub score](https://img.shields.io/pub/points/dart_package_template?logo=dart)](https://pub.dev/packages/dart_package_template/score)
 [![likes](https://img.shields.io/pub/likes/dart_package_template?logo=dart)](https://pub.dev/packages/dart_package_template/likes)
+<!-- /template:out -->
 
 </div>
 
@@ -58,16 +83,13 @@ This repository is also published as a package on [pub.dev](https://pub.dev/pack
     git clone <your-repo-url>
     cd <your-repo-name>
     ```
-3. **Update `pubspec.yaml`**
-    - Change the `name`, `description`, `homepage`, `repository`, and `issue_tracker` fields to match your package
-    - Update the `environment` SDK constraints if necessary
-    - Update the same fields in `example/**/pubspec.yaml`
-4. **Rename the entrypoint file** `lib/dart_package_template.dart` to `lib/<your_package_name>.dart` - this is required by Dart package conventions
-5. **Update `README.md`**
+3. **Run `./init` script**
+    - **🛑✋ IMPORTANT!** Do not skip this step
+    - This will set the correct names, descriptions and URLs in all relevant files (`pubspec.yaml`, `README.md`, GitHub workflows, etc.) based on your repository name and details
+4. **Update `README.md`**
     - We recommend you keep the sections, titles and the structure of this README as-is
     - Update the content to reflect your package's purpose, features, and usage
-    - Update the badges at the top to reflect your repository and package details
-6. **Update `LICENSE`**
+5. (optional) **Update `LICENSE`**
     - We recommend the included [`MPL-2.0 License`](https://opensource.org/licenses/MPL-2.0) for open source packages, as it's business-friendly and allows for both open source and proprietary use
     - If you choose a different license, make sure to update the `LICENSE` file accordingly
 
@@ -142,23 +164,35 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## 🙏 Credits & Acknowledgements
 
-<!-- REMEMBER! Update the URLs below to point to your own username/repo! -->
-
 ### Contributors 🧑‍💻💙📝
 
 This package is developed/maintained by the following rockstars!
 Your contributions make a difference! 💖
 
+<!-- template:in
+![contributors badge](https://readme-contribs.as93.net/contributors/${github_username}/${repo_name}?textColor=888888)
+ /template:in -->
+<!-- template:out -->
 ![contributors badge](https://readme-contribs.as93.net/contributors/kerberjg/dart_package_template?textColor=888888)
+<!-- /template:out -->
 
 ### Sponsors 🫶✨🥳
 
 Kind thanks to all our sponsors! Thank you for supporting the Dart/Flutter community, and keeping open source alive! 💙
 
+<!-- template:in
+![sponsors badge](https://readme-contribs.as93.net/sponsors/${github_username}?textColor=888888)
+ /template:in -->
+<!-- template:out -->
 ![sponsors badge](https://readme-contribs.as93.net/sponsors/kerberjg?textColor=888888)
+<!-- /template:out -->
 
 ---
 
 <!-- Keep the below notice -->
 
+<div align="center">
+
 > Based on [`dart_package_template`](https://github.com/kerberjg/dart_package_template) - a high-quality Dart package template with best practices, CI/CD, and more! 💙✨
+
+</div>
